@@ -20,12 +20,20 @@ const numMax = parseInt(prompt('Inserisci il numero massimo da stampare della ta
 //     console.log('2 * ' + i + ' = ' + 2 * i)
 // }
 
-//CICLO WHILE
+//FOR 2°
 let num = 0
-let i = 0
 
-while (num < numMax) {
+for(let i = 0; num < numMax; i++) {
     num = i * 2
     console.log('2 * ' + i + ' = ' + 2 * i)
-    i++
 }
+
+//CICLO WHILE
+// let num = 0
+// let i = 0
+
+// while (num < numMax) {
+//     num = i * 2
+//     console.log('2 * ' + i + ' = ' + 2 * i)
+//     i++
+// }
