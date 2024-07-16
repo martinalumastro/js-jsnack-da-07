@@ -14,7 +14,10 @@ while (numPc !== numUtente) {
     console.log('Non hai indovinato. Ritenta!')
     numUtente = parseInt(prompt('Prova a indovinare il numero generato dal computer! Scrivi un numero da 0 a 10'))
 }
-
+//for(null; numPc !== numUtente; null){
+    // console.log('Non hai indovinato. Ritenta!')
+    // numUtente = parseInt(prompt('Prova a indovinare il numero generato dal computer! Scrivi un numero da 0 a 10'))
+// }
 console.log('Complimenti! Hai vinto')
 
 // if(numPc === numUtente) {
